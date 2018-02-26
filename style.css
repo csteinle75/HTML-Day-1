@@ -1,0 +1,33 @@
+* {
+	font-family: Helvetica, Arial, sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #DADADA;
+}
+
+#headerBar {
+	background-color: #BED;
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	margin: -8px 0 0 0;
+	z-index: 1;
+	display: inline-block;
+}
+
+#hello {
+	color: #FFF;
+	text-align: center;
+	margin: 0;
+	padding: 5px 0 0 0;
+}
+
+.rect {
+	border: 2px dashed black;
+	width: 100px; 
+	height: 200px;
+	background-color: rgba(0, 0, 0, .2);
+	margin-top: -1px;
+}
