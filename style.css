@@ -12,8 +12,10 @@ body {
 	position: fixed;
 	width: 100%;
 	height: 50px;
-	margin: -58px -8px 0 -8px;
 	z-index: 1;
+	top: 0;
+	left: 0;
+	right: 0;
 	display: inline-block;
 }
 
@@ -24,8 +26,15 @@ body {
 	padding: 5px 0 0 0;
 }
 
-#topRect {
-	margin-top: 50px;
+.bigPlaceholder {
+	border: 2px dashed black;
+	width: 400px; 
+	height: 500px;
+	margin: 10px;
+	background-color: rgba(0, 0, 0, .2);
+	position: relative;
+	top: 50px;
+	float: right;
 }
 
 .rect {
@@ -33,6 +42,18 @@ body {
 	width: 200px; 
 	height: 200px;
 	background-color: rgba(0, 0, 0, .2);
-	margin-bottom: -1px;
+	position: relative;
+	top: 50px;
+	float: right;
 }
 
+.targetBlock {
+	position: relative;
+	top: 50px;
+	margin-left: 10px;
+}
+
+#computerImage {
+	width: 200px;
+	
+}
